@@ -24,3 +24,15 @@ Adja meg a felhasználónevét! bori99
 Adja meg a jelszavát! Szivecske<3
 Belépés engedélyezve.
 '''
+jelszo = "Szivecske<3"
+felhasznalo = "bori99"
+
+while True:
+  fel_tipp = input("Adja meg a felhasználónevét! ")
+  jel_tipp = input("Adja meg a jelszavát! ")
+  if felhasznalo == fel_tipp and jelszo == jel_tipp:
+    print("Belépés engedélyezve.")
+    break
+  else:
+    print("Belépés megtagadva.")
+    continue
