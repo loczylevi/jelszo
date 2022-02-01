@@ -32,3 +32,6 @@ while True:
   fel_tipp = input("Adja meg a jelszavát! ")
   if jelszo == jel_tipp and felhasznalo == fel_tipp:
     print("Belépés engedélyezve.")
+    break
+  else:
+    print("Belépés megtagadva.")
