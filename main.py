@@ -24,3 +24,5 @@ Adja meg a felhasználónevét! bori99
 Adja meg a jelszavát! Szivecske<3
 Belépés engedélyezve.
 '''
+jelszo = "Szivecske<3"
+felhasznalo = "bori99"
