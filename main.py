@@ -28,10 +28,11 @@ jelszo = "Szivecske<3"
 felhasznalo = "bori99"
 
 while True:
-  jel_tipp = input("Adja meg a felhasználónevét! ")
-  fel_tipp = input("Adja meg a jelszavát! ")
-  if jelszo == jel_tipp and felhasznalo == fel_tipp:
+  fel_tipp = input("Adja meg a felhasználónevét! ")
+  jel_tipp = input("Adja meg a jelszavát! ")
+  if felhasznalo == fel_tipp and jelszo == jel_tipp:
     print("Belépés engedélyezve.")
     break
   else:
     print("Belépés megtagadva.")
+    continue
